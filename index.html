@@ -19,6 +19,7 @@
     <body>
         <main class="container-fluid">
             <header class="page-header">
+                <img src="img/ring.png" alt="ring icon" class="pull-right"/>
                 <h1>Sauron's To-Do List</h1>
                 <p class="lead">One List To Rule Them All!</p>
             </header>
@@ -34,12 +35,6 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="task-due">Due By</label>
-                        <input type="date" id="task-due" class="form-control"
-                               placeholder="date due" />
-                    </div>
-
-                    <div class="form-group text-right">
                         <button type="submit" class="btn btn-primary" ng-disabled="inserting">Add Task</button>
                     </div>
                 </form>
@@ -56,13 +51,11 @@
                     <thead>
                         <tr>
                             <th>Task</th>
-                            <th>Due</th>
                             <th>Done</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
                             <td></td>
                             <td><input type="checkbox" /></td>
                         </tr>
